@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="98.Default">
+      <UniqueIdentifier>{9ce8ae51-925b-4533-9741-2ce8c7584f41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Header">
+      <UniqueIdentifier>{4af552df-2489-4ede-b776-05f339ed885a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{b12dbd11-161c-4b81-89d5-6109d5cf82cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Imgui">
+      <UniqueIdentifier>{49034623-5994-493d-9c18-605c84a4d7c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Imgui\Manager">
+      <UniqueIdentifier>{607044f9-7244-4f7b-85c7-397593d91c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Imgui\etc">
+      <UniqueIdentifier>{85076391-7c22-4f27-89db-029026929ac1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.ShaderFiles">
+      <UniqueIdentifier>{5e44210e-f7d2-4343-8f9c-da4bdefb230d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level">
+      <UniqueIdentifier>{96f1e37b-2972-4087-9044-be7aa7373d74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\00.Logo">
+      <UniqueIdentifier>{679b1cde-44db-4284-aae0-0d4473dd8da0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\99.Loading">
+      <UniqueIdentifier>{87be05eb-eeab-4e1b-a999-8a896d71675b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\99.Loading\Loader">
+      <UniqueIdentifier>{704dae95-adc0-449d-b113-a97369558b63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Console_Debug">
+      <UniqueIdentifier>{b2e5d745-a981-47a1-9412-e2d95e803d96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject">
+      <UniqueIdentifier>{a4f3dd2e-b69d-4e15-a227-790e471d95b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI">
+      <UniqueIdentifier>{cc003a86-99cd-41c9-82da-e5c187cbaa9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\01.Loby">
+      <UniqueIdentifier>{6b04e5ee-d811-41f8-87e0-6bcb8984deb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\98.Test">
+      <UniqueIdentifier>{97e7c968-6e5b-45cf-bb8f-db40443c316d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\03.Game1">
+      <UniqueIdentifier>{858217e0-950e-4a10-8464-21dbe2d4103e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\04.Game2">
+      <UniqueIdentifier>{0ff0a438-c0ef-4e85-b994-e727ed2229bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Effect">
+      <UniqueIdentifier>{f03bb671-6a6f-4f80-ab20-064626ef68f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02.Tutorial">
+      <UniqueIdentifier>{e08a0d3c-72e7-4129-bbe9-91c9c833a934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\05.Game3">
+      <UniqueIdentifier>{60bbd57b-24e4-4cdc-83a7-5802d0110127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI\Button">
+      <UniqueIdentifier>{4dbf7ea2-918e-40f7-816a-550914f36d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Model_Object">
+      <UniqueIdentifier>{9ae94199-7aa1-4c57-84c0-6a51c0fd2d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Model_Object\Anim">
+      <UniqueIdentifier>{6f28a1c7-bff0-4b7c-81f2-ced7cefe20cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Model_Object\NonAnim">
+      <UniqueIdentifier>{160e49ca-4012-4cbb-9405-a420f934a813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Model_Object\Anim\Test">
+      <UniqueIdentifier>{f5c5ed57-5b7c-43e3-a263-d210028fe89e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Camera">
+      <UniqueIdentifier>{0c3a4fa9-8b12-401d-92c8-6b1b70c36565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Camera\Default">
+      <UniqueIdentifier>{34f647b5-a435-47ad-9192-c3336a92db6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Effect\Instance">
+      <UniqueIdentifier>{25703a87-1b95-47f7-bd24-e5fcea6e30bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Effect\Instance\Rect">
+      <UniqueIdentifier>{a00a221f-f64e-4cf3-ac1f-9227c85c4d89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Effect\Instance\Point">
+      <UniqueIdentifier>{ffbcaf1e-6f18-416a-9d5c-da2145d6e41c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Define.h">
+      <Filter>99.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGUI_Manager.h">
+      <Filter>97.Imgui\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imconfig.h">
+      <Filter>97.Imgui\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imgui.h">
+      <Filter>97.Imgui\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imgui_impl_dx11.h">
+      <Filter>97.Imgui\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imgui_impl_win32.h">
+      <Filter>97.Imgui\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imgui_internal.h">
+      <Filter>97.Imgui\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imstb_rectpack.h">
+      <Filter>97.Imgui\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imstb_textedit.h">
+      <Filter>97.Imgui\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imstb_truetype.h">
+      <Filter>97.Imgui\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Logo.h">
+      <Filter>01.Level\00.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Loading.h">
+      <Filter>01.Level\99.Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Loader.h">
+      <Filter>01.Level\99.Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Test.h">
+      <Filter>01.Level\98.Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Console_Debug.h">
+      <Filter>96.Console_Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI.h">
+      <Filter>02.GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Loby.h">
+      <Filter>01.Level\01.Loby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Game1.h">
+      <Filter>01.Level\03.Game1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Game2.h">
+      <Filter>01.Level\04.Game2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Game3.h">
+      <Filter>01.Level\05.Game3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Tutorial.h">
+      <Filter>01.Level\02.Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Button_Super.h">
+      <Filter>02.GameObject\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Model_Anim.h">
+      <Filter>02.GameObject\Model_Object\Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Model_Object.h">
+      <Filter>02.GameObject\Model_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShaderFiles\Shader_Define.hpp">
+      <Filter>95.ShaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Model_NonAnim.h">
+      <Filter>02.GameObject\Model_Object\NonAnim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camera_Default.h">
+      <Filter>02.GameObject\Camera\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Test_Model.h">
+      <Filter>02.GameObject\Model_Object\Anim\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Rect_Effect.h">
+      <Filter>02.GameObject\Effect\Instance\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Point_Effect.h">
+      <Filter>02.GameObject\Effect\Instance\Point</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect .h">
+      <Filter>02.GameObject\Effect</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ImGUI_Manager.cpp">
+      <Filter>97.Imgui\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\imgui.cpp">
+      <Filter>97.Imgui\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\imgui_demo.cpp">
+      <Filter>97.Imgui\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\imgui_draw.cpp">
+      <Filter>97.Imgui\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\imgui_impl_dx11.cpp">
+      <Filter>97.Imgui\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\imgui_impl_win32.cpp">
+      <Filter>97.Imgui\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\imgui_tables.cpp">
+      <Filter>97.Imgui\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\imgui_widgets.cpp">
+      <Filter>97.Imgui\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Logo.cpp">
+      <Filter>01.Level\00.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Loading.cpp">
+      <Filter>01.Level\99.Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Loader.cpp">
+      <Filter>01.Level\99.Loading\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Test.cpp">
+      <Filter>01.Level\98.Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Console_Debug.cpp">
+      <Filter>96.Console_Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI.cpp">
+      <Filter>02.GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Tutorial.cpp">
+      <Filter>01.Level\02.Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Game1.cpp">
+      <Filter>01.Level\03.Game1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Game2.cpp">
+      <Filter>01.Level\04.Game2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Game3.cpp">
+      <Filter>01.Level\05.Game3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Loby.cpp">
+      <Filter>01.Level\01.Loby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Button_Super.cpp">
+      <Filter>02.GameObject\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Model_Anim.cpp">
+      <Filter>02.GameObject\Model_Object\Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Model_Object.cpp">
+      <Filter>02.GameObject\Model_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Model_NonAnim.cpp">
+      <Filter>02.GameObject\Model_Object\NonAnim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camera_Default.cpp">
+      <Filter>02.GameObject\Camera\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Test_Model.cpp">
+      <Filter>02.GameObject\Model_Object\Anim\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Rect_Effect.cpp">
+      <Filter>02.GameObject\Effect\Instance\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Point_Effect.cpp">
+      <Filter>02.GameObject\Effect\Instance\Point</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect.cpp">
+      <Filter>02.GameObject\Effect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>98.Default</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>98.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\ShaderFiles\Shader_VtxTex.hlsl">
+      <Filter>95.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\ShaderFiles\Shader_VtxAnim.hlsl">
+      <Filter>95.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\ShaderFiles\Shader_VtxCube.hlsl">
+      <Filter>95.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\ShaderFiles\Shader_VtxNorTex.hlsl">
+      <Filter>95.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\ShaderFiles\Shader_VtxInstance.hlsl">
+      <Filter>95.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\ShaderFiles\Shader_VtxNonAnim.hlsl">
+      <Filter>95.ShaderFiles</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

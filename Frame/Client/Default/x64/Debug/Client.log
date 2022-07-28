@@ -1,0 +1,28 @@
+﻿  Client.cpp
+  Test_Model.cpp
+  Model_Object.cpp
+  Model_Anim.cpp
+  MainApp.cpp
+  Level_Test.cpp
+  Level_Logo.cpp
+  Rect_Effect.cpp
+  Point_Effect.cpp
+  Model_NonAnim.cpp
+  Loader.cpp
+  Level_Tutorial.cpp
+  Level_Loby.cpp
+  Level_Loading.cpp
+  Level_Game3.cpp
+  Level_Game2.cpp
+  Level_Game1.cpp
+  ImGUI_Manager.cpp
+c:\users\dietf\onedrive\바탕 화면\3d팀폴\frame\client\private\imgui_manager.cpp(79): warning C4838: 'Engine::_uint'에서 'Engine::_int'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\users\dietf\onedrive\바탕 화면\3d팀폴\frame\client\private\imgui_manager.cpp(112): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Effect.cpp
+  Camera_Default.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  Button_Super.cpp
+  코드를 생성하고 있습니다...
+  Client.vcxproj -> C:\Users\dietf\OneDrive\바탕 화면\3D팀폴\Frame\Client\Default\..\Bin\Client.exe
+  Client.vcxproj -> ..\Bin\Client.pdb (Full PDB)

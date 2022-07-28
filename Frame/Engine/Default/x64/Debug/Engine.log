@@ -1,0 +1,16 @@
+﻿  GameInstance.cpp
+  VIBuffer_Rect_Instance.cpp
+c:\users\dietf\onedrive\바탕 화면\3d팀폴\frame\engine\private\vibuffer_rect_instance.cpp(78): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\dietf\onedrive\바탕 화면\3d팀폴\frame\engine\private\vibuffer_rect_instance.cpp(162): warning C4305: 'return': 'HRESULT'에서 'Engine::_bool'(으)로 잘립니다.
+c:\users\dietf\onedrive\바탕 화면\3d팀폴\frame\engine\private\vibuffer_rect_instance.cpp(164): warning C4244: '+=': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\dietf\onedrive\바탕 화면\3d팀폴\frame\engine\private\vibuffer_rect_instance.cpp(187): warning C4244: '+=': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\dietf\onedrive\바탕 화면\3d팀폴\frame\engine\private\vibuffer_rect_instance.cpp(190): warning C4244: '인수': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\dietf\onedrive\바탕 화면\3d팀폴\frame\engine\private\vibuffer_rect_instance.cpp(254): warning C4101: 'vPos' :참조되지 않은 지역 변수입니다.
+  Level_Manager.cpp
+  Level.cpp
+  GameObject.cpp
+  Component_Manager.cpp
+  코드를 생성하고 있습니다...
+c:\users\dietf\onedrive\바탕 화면\3d팀폴\frame\engine\private\vibuffer_rect_instance.cpp(282): warning C4715: 'Engine::CVIBuffer_Rect_Instance::Restart': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  Engine.vcxproj -> C:\Users\dietf\OneDrive\바탕 화면\3D팀폴\Frame\Engine\Default\..\Bin\Engine.dll
+  Engine.vcxproj -> ..\Bin\Engine.pdb (Full PDB)
